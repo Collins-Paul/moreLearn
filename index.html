@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | ICT-YET</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+           background-color: white; 
+           display: inline-flex;
+           align-items: center;
+           width: 100%;
+           justify-content: space-around;
+           padding-top: 10px;
+           padding-bottom: 10px
+        }
+
+        ul {
+            display: inline-flex;
+            column-gap: 20px;
+            list-style-type: none;
+            align-items: center;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: rgb(14, 13, 13);
+            font-size: 12px;
+        }
+
+        nav img {
+            width: 120px;
+        }
+
+        .cta {
+            border: solid #008dfa 1px;
+            display: block;
+            width: 70px;
+            text-align: center;
+            padding: 8px 0;
+            border-radius: 5px;
+        }
+
+        .cta.login {
+            background-color: #008dfa;
+            color: white;
+        }
+
+        .cta.login:hover, .cta.cta.apply_now:hover {
+            background-color: #003254;
+            border-color: #003254;
+            color: white
+        }
+
+        .cta.apply_now {
+            color: #008dfa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./images/moredeltalogo.svg" alt="">
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Application</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="" class="cta login">Login</a></li>
+                <li><a href="" class="cta apply_now">Apply Now</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
